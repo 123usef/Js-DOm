@@ -57,6 +57,8 @@ let btn  =  document.getElementById("nav-btn");
 
 //fontSize , backgroundColor
 
+
+
 btn.addEventListener("click" , (e)=>{
    console.log(e.target);
     btn.style.color = "red";
@@ -68,3 +70,9 @@ btn.addEventListener("click" , (e)=>{
 nav.addEventListener("click" , (e)=>{
     console.log(e.target);
 })
+
+
+let ele = document.createElement("h2");
+ele.textContent = "شفيقة 💛 ";
+ele.setAttribute("class","head-22");
+nav.appendChild(ele);
